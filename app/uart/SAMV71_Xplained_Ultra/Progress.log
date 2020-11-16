@@ -1,0 +1,10 @@
+CONVERTING	C:\Embedded\EmbeddedSystems\Homework\1.CooperativeScheduler\SAMx_713\SAMx\SAMV7x\SAMV71x\app\uart\SAMV71_Xplained_Ultra\Debug\Scheduler.elf
+LOADING	C:\Embedded\EmbeddedSystems\Homework\1.CooperativeScheduler\SAMx_713\SAMx\SAMV7x\SAMV71x\app\uart\SAMV71_Xplained_Ultra\Debug\Scheduler.elf
+ANALYZING
+ANALYZING
+EMULATION	POD: Cortex (JTAG,SWD)   CPU: Cortex-M7
+DEBUG	PROTOCOL: SWD; RESET: SoC
+LOADING 	40788 bytes
+UMI INFO	Loading UMI monitor...
+PROGRAMMING	Atmel ATSAMV7 (2048 kB) (3 sectors)
+UMI INFO	Unloading UMI monitor...
