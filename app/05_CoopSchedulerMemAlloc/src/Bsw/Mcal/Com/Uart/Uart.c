@@ -14,6 +14,43 @@
  *        Headers
  *----------------------------------------------------------------------------*/
 #include    <stdint.h>
+#include    "Uart.h"
+
+
+
+void Uart_Init ( const UartConfigType* Config)
+{
+    
+}
+
+Std_ReturnType Uart_SetBaudrate ( uint8_t Channel, uint32_t Baudrate );
+
+void Uart_SetTxEnable ( uint8_t Channel, uint32_t Enable )
+{
+    while (Enable)
+    {
+        UartChannel.ChannelId/
+        Uart->UART_CR = UART_CR_TXEN;
+    }
+    	if (enabled) {
+		uart->UART_CR = UART_CR_TXEN;
+	} else {
+		uart->UART_CR = UART_CR_TXDIS;
+	}
+}
+
+Std_ReturnType Uart_SendByte ( uint8_t Channel, uint8_t Byte )
+{
+    if ((1 = STATREG_UART))
+    {
+        Uart_Reg
+    }
+    
+}
+
+
+
+
 
 
 
