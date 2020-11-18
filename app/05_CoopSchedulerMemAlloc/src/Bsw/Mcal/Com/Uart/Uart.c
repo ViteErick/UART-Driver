@@ -18,35 +18,14 @@
 
 
 
-void Uart_Init ( const UartConfigType* Config)
+
+
+
+uint32_t Uart_GetStatus ( uint8_t Channel )
 {
-    
+    return Channel->UART_SR;
 }
 
-Std_ReturnType Uart_SetBaudrate ( uint8_t Channel, uint32_t Baudrate );
-
-void Uart_SetTxEnable ( uint8_t Channel, uint32_t Enable )
-{
-    while (Enable)
-    {
-        UartChannel.ChannelId/
-        Uart->UART_CR = UART_CR_TXEN;
-    }
-    	if (enabled) {
-		uart->UART_CR = UART_CR_TXEN;
-	} else {
-		uart->UART_CR = UART_CR_TXDIS;
-	}
-}
-
-Std_ReturnType Uart_SendByte ( uint8_t Channel, uint8_t Byte )
-{
-    if ((1 = STATREG_UART))
-    {
-        Uart_Reg
-    }
-    
-}
 
 
 

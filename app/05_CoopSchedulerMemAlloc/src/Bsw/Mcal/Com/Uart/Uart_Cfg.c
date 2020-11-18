@@ -47,17 +47,17 @@ UartChannelType UartChannelConfig[]=
         /* UART Logical Channel 0  */
     {
         UART_CFG_PHY_CHANNEL4,
+        UART_CFG_INT_RXRDY,
+        UART_CFG_MODE_NORMAL,
         NULL,
-        NULL,
-        NULL,
-        NULL,
-        NULL,
-        NULL,
+        UART_CFG_PER_CLK,
+        *TxNotification,
+        (*RxNotification) ,
+        (*ErrorNotification),
     };
     
         /* UART Logical Channel 1  */
-
-}
+};
 
 UartConfigType UartConfig[]=
 {
